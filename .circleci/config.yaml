@@ -13,7 +13,7 @@ jobs:
           command: fastlane scan
           environment:
             SCAN_DEVICE: iPhone 8
-            SCAN_SCHEME: EnterpriseApp
+            SCAN_SCHEME: BigApp
 
       - store_test_results:
           path: output/scan
